@@ -1,0 +1,3 @@
+C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/cmake-build-debug/CMakeFiles/Devoir2.dir
+C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

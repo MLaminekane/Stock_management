@@ -1,0 +1,61 @@
+#include <iostream>
+#include <list>
+#include <string>
+#include "Compteur.h"
+#include "Composant1.h"
+#include "Composant2.h"
+#include "Composant3.h"
+#include "Composant4.h"
+#include "Composant5.h"
+using namespace std;
+
+
+void testComposants();
+
+void afficherInformation();
+
+int main()
+{
+    testComposants();
+    //commerce();
+    afficherInformation();
+    return 0;
+}
+void testComposants() {
+    Composant1* c1 = new Composant1(98, 45);
+    Composant2* c2 = new Composant2(96, 33);
+    Composant3* c3 = new Composant3(22);
+    Composant4* c4 = new Composant4(100);
+    Composant5* c5 = new Composant5(2, 77, 100);
+    Composant1 cc(*c1);
+    cout << "cc : " << cc.getNom() << "/" << cc.getPoids() << "/" <<
+    cc.getPrix() << "/" << cc.getQualite() << endl;
+    list<Composant*> composants;
+    composants.push_back(c1);
+    composants.push_back(c2);
+    composants.push_back(c3);
+    composants.push_back(c4);
+    composants.push_back(c5);
+
+    for (Composant* composant : composants) //
+        cout << composant->getNom() << "/" << composant->getPoids() <<
+        "/" << composant->getPrix() << "/" << composant->getQualite() << endl;
+    while (!composants.empty())
+    {
+        Composant* composant = composants.front();
+        composants.pop_front();
+        delete composant;
+    }
+}
+void afficherInformation()
+{
+    cout << endl << endl;
+    cout << endl << "-------------------------------" << endl
+    << " NB constructeurs : " <<
+    Compteur::getNbConstructeurs() << endl
+    << " NB constructeurs copie : " <<
+    Compteur::getNbConstructeursCopie() << endl
+    << " NB destructeurs : " << Compteur::getNbDestructeurs()
+    << endl;
+    cin.get();
+}
