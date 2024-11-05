@@ -1,0 +1,42 @@
+#pour le moment, le projet est structuré de la manière suivante:
+
+/project
+|-- /src
+|   |-- /model
+|   |   |-- Compteur.cpp
+|   |   |-- Produit.cpp
+|   |   |-- ProduitA.cpp
+|   |   |-- ProduitB.cpp
+|   |   |-- ProduitC.cpp
+|   |   |-- ProduitD.cpp
+|   |   |-- ProduitE.cpp
+|   |   |-- Inventaire.cpp
+|   |   |-- Commande.cpp
+|   |   |-- Composant.cpp
+|   |   |-- Composant1.cpp
+|   |   |-- Composant2.cpp
+|   |   |-- Composant3.cpp
+|   |   |-- Composant4.cpp
+|   |   |-- Composant5.cpp
+|   |   |-- Fournisseur.cpp
+|-- /include
+|   |-- Compteur.h
+|   |-- Produit.h
+|   |-- ProduitA.h
+|   |-- ProduitB.h
+|   |-- ProduitC.h
+|   |-- ProduitD.h
+|   |-- ProduitE.h
+|   |-- Inventaire.h
+|   |-- Commande.h
+|   |-- Composant.h
+|   |-- Composant1.h
+|   |-- Composant2.h
+|   |-- Composant3.h
+|   |-- Composant4.h
+|   |-- Composant5.h
+|   |-- Fournisseur.h
+|-- main.cpp
+|-- CMakeLists.txt
+|-- testInventaire.cpp
+|-- testCommande.cpp

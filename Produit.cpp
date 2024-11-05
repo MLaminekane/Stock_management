@@ -70,10 +70,7 @@ ostream & operator<<(const ostream & os, string::pointer str);
 ostream operator<<(const ostream & lhs, int rhs);
 
 ostream & operator<<(ostream &os, const Produit &produit) {
-    os << "Produit: " << produit.getNom() << "\n";
-    os << "Description: " << produit.getDescription() << "\n";
-    os << "Poids: " << produit.calculerPoids() << "\n";
-    os << "Prix: " << produit.calculerPrix() << "\n";
-    os << "Qualite: " << produit.evaluerQualite() << "\n";
+    os << "" << produit.getNom() << " {" << produit.getDescription() << "} --> "
+       << "Poids:" << produit.calculerPoids() << "/Prix:" << produit.calculerPrix();
     return os;
 }

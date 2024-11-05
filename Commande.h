@@ -1,7 +1,3 @@
-//
-// Created by mlami on 10/17/2024.
-//
-
 #ifndef COMMANDE_H
 #define COMMANDE_H
 #include <iostream>
@@ -19,14 +15,15 @@ private:
 public:
     Commande();
     Commande(int noCommande, int qteProduits[]);
-    ~Commande();
+    explicit Commande(int noCommande);
 
-    Commande(const Commande&);
+    virtual ~Commande();
+
+    Commande(const Commande& other);
     int getQuantiteProduit(int idProduit);
-    int getNoCommande();
+    int getNoCommande() const;
 
     friend ostream& operator<<(ostream& out, const Commande& commande);
-
 };
 
 #endif //COMMANDE_H

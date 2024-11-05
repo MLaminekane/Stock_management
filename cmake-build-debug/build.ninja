@@ -151,6 +151,48 @@ build CMakeFiles/Devoir2.dir/Fournisseur.cpp.obj: CXX_COMPILER__Devoir2_unscanne
   OBJECT_DIR = CMakeFiles\Devoir2.dir
   OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
 
+build CMakeFiles/Devoir2.dir/hasard.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/hasard.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\hasard.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+
+build CMakeFiles/Devoir2.dir/Entrepot.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Entrepot.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\Entrepot.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+
+build CMakeFiles/Devoir2.dir/BonCommande.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/BonCommande.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\BonCommande.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+
+build CMakeFiles/Devoir2.dir/Reception.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Reception.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\Reception.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+
+build CMakeFiles/Devoir2.dir/Client.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Client.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\Client.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+
+build CMakeFiles/Devoir2.dir/Entreprise.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Entreprise.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\Entreprise.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+
+build CMakeFiles/Devoir2.dir/RapportAssuranceQualite.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/RapportAssuranceQualite.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\RapportAssuranceQualite.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Devoir2
@@ -159,7 +201,7 @@ build CMakeFiles/Devoir2.dir/Fournisseur.cpp.obj: CXX_COMPILER__Devoir2_unscanne
 #############################################
 # Link the executable Devoir2.exe
 
-build Devoir2.exe: CXX_EXECUTABLE_LINKER__Devoir2_Debug CMakeFiles/Devoir2.dir/main.cpp.obj CMakeFiles/Devoir2.dir/Compteur.cpp.obj CMakeFiles/Devoir2.dir/Composant.cpp.obj CMakeFiles/Devoir2.dir/Composant1.cpp.obj CMakeFiles/Devoir2.dir/Composant2.cpp.obj CMakeFiles/Devoir2.dir/Composant3.cpp.obj CMakeFiles/Devoir2.dir/Composant4.cpp.obj CMakeFiles/Devoir2.dir/Composant5.cpp.obj CMakeFiles/Devoir2.dir/Produit.cpp.obj CMakeFiles/Devoir2.dir/ProduitA.cpp.obj CMakeFiles/Devoir2.dir/ProduitB.cpp.obj CMakeFiles/Devoir2.dir/ProduitC.cpp.obj CMakeFiles/Devoir2.dir/ProduitD.cpp.obj CMakeFiles/Devoir2.dir/ProduitE.cpp.obj CMakeFiles/Devoir2.dir/Commande.cpp.obj CMakeFiles/Devoir2.dir/Inventaire.cpp.obj CMakeFiles/Devoir2.dir/Fournisseur.cpp.obj
+build Devoir2.exe: CXX_EXECUTABLE_LINKER__Devoir2_Debug CMakeFiles/Devoir2.dir/main.cpp.obj CMakeFiles/Devoir2.dir/Compteur.cpp.obj CMakeFiles/Devoir2.dir/Composant.cpp.obj CMakeFiles/Devoir2.dir/Composant1.cpp.obj CMakeFiles/Devoir2.dir/Composant2.cpp.obj CMakeFiles/Devoir2.dir/Composant3.cpp.obj CMakeFiles/Devoir2.dir/Composant4.cpp.obj CMakeFiles/Devoir2.dir/Composant5.cpp.obj CMakeFiles/Devoir2.dir/Produit.cpp.obj CMakeFiles/Devoir2.dir/ProduitA.cpp.obj CMakeFiles/Devoir2.dir/ProduitB.cpp.obj CMakeFiles/Devoir2.dir/ProduitC.cpp.obj CMakeFiles/Devoir2.dir/ProduitD.cpp.obj CMakeFiles/Devoir2.dir/ProduitE.cpp.obj CMakeFiles/Devoir2.dir/Commande.cpp.obj CMakeFiles/Devoir2.dir/Inventaire.cpp.obj CMakeFiles/Devoir2.dir/Fournisseur.cpp.obj CMakeFiles/Devoir2.dir/hasard.cpp.obj CMakeFiles/Devoir2.dir/Entrepot.cpp.obj CMakeFiles/Devoir2.dir/BonCommande.cpp.obj CMakeFiles/Devoir2.dir/Reception.cpp.obj CMakeFiles/Devoir2.dir/Client.cpp.obj CMakeFiles/Devoir2.dir/Entreprise.cpp.obj CMakeFiles/Devoir2.dir/RapportAssuranceQualite.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Devoir2.dir

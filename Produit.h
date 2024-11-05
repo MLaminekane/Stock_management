@@ -18,7 +18,6 @@ public:
     Produit(const Produit& other);
 
     Produit(string nom);
-    // Produit(const Produit&);
     virtual ~Produit();
 
     int calculerPoids() const;

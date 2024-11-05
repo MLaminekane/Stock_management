@@ -36,4 +36,18 @@ add_executable(Devoir2 main.cpp
         Inventaire.h
         Fournisseur.cpp
         Fournisseur.h
+        hasard.cpp
+        hasard.h
+        Entrepot.cpp
+        Entrepot.h
+        BonCommande.cpp
+        BonCommande.h
+        Reception.cpp
+        Reception.h
+        Client.cpp
+        Client.h
+        Entreprise.cpp
+        Entreprise.h
+        RapportAssuranceQualite.cpp
+        RapportAssuranceQualite.h
 )

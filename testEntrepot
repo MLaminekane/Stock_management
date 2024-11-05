@@ -1,0 +1,67 @@
+#include <iostream>
+#include <list>
+
+#include "Commande.h"
+#include "Produit.h"
+#include "Composant.h"
+#include "Composant1.h"
+#include "Composant2.h"
+#include "Composant3.h"
+#include "Composant4.h"
+#include "Composant5.h"
+#include "Entrepot.h"
+#include "Fournisseur.h"
+#include "Inventaire.h"
+#include "ProduitA.h"
+#include "ProduitB.h"
+#include "ProduitC.h"
+#include "ProduitD.h"
+#include "ProduitE.h"
+
+void testInventaire();
+
+void afficherInformation();
+
+void afficherInformation()
+{
+    cout << endl << endl;
+    cout << endl << "-------------------------------" << endl
+    << " NB constructeurs : " <<
+    Compteur::getNbConstructeurs() << endl
+    << " NB constructeurs copie : " <<
+    Compteur::getNbConstructeursCopie() << endl
+    << " NB destructeurs : " << Compteur::getNbDestructeurs()
+    << endl;
+    cin.get();
+}
+void testEntrepot();
+int main()
+{
+    testEntrepot();
+    //commerce();
+    afficherInformation();
+    return 0;
+}
+void testEntrepot()
+{
+    Entrepot entrepot;
+    entrepot.ajouterComposant(new Composant1(100, 80), 0);
+    entrepot.ajouterComposant(new Composant2(99, 81), 1);
+    list<Composant*> maListeComposants4;
+    maListeComposants4.push_back(new Composant4(99));
+    maListeComposants4.push_back(new Composant4(98));
+    maListeComposants4.push_back(new Composant4(97));
+    maListeComposants4.push_back(new Composant5(3, 90, 30));
+    entrepot.ajouterComposants(maListeComposants4, 3);
+    Entrepot entrepotCC(entrepot);
+    entrepotCC.ajouterComposant(new Composant3(1000), 2);
+    for (int id = 0; id < 5; id++)
+        while (entrepotCC.getQuantiteComposants(id) > 0)
+        {
+            Composant* monComposant =
+            entrepotCC.recupererComposant(id);
+            cout << "mon composant " << monComposant->getNom() <<
+            endl;
+            delete monComposant;
+        }
+}

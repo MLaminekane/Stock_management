@@ -1,0 +1,85 @@
+//
+// void Client::preparerCommande2024() {
+//     int quantites[4][5] = {
+//         {3, 3, 3, 3, 3},
+//         {5, 3, 3, 3, 10},
+//         {-1, 0, 5, 5, 4},
+//         {1, 2, 12, 0, 0}
+//     };
+//     for (int i = 0; i < 4; i++) {
+//         commandesA2024[i] = new BonCommande( i, new Commande());
+//         for(int j = 0; j < 5; j++) {
+//             commandesA2024[i]->ajouterProduits( quantites[i][j], j);
+//         }
+//     }
+// }
+//
+
+//
+// Client::Client(const Client &client) {
+//     Compteur::ajouterConstructeurCopie();
+//     this->nom = client.nom;
+//     this->seuilQualite = client.seuilQualite;
+//     this->reception = nullptr;
+//     for (int i = 0; i < 4; ++i) {
+//         if (client.commandesA2024[i] != nullptr) {
+//             this->commandesA2024[i] = new BonCommande(*client.commandesA2024[i]);
+//         } else {
+//             this->commandesA2024[i] = nullptr;
+//         }
+//     }
+// }
+//
+
+//
+// Commande Client::getCommande(int id) {
+// }
+//
+// Reception * Client::getReception() {
+// }
+//
+// int Client::getSeuilQualite() {
+// }
+//
+// string Client::getNom() {
+// }
+//
+// void Client::recevoirCommande(Reception *reception) {
+//     this->reception = reception;
+// }
+//
+// void Client::consommerProduits() {
+//     delete reception;
+// }
+//
+// int Client::getSatisfactionProduit(int idProduits) {
+//     std::list<Produit*> produitsRecus = reception->getProduits(idProduits);
+//     int nbProduitsCommandes = commandesA2024[idProduits]->getQuantiteProduits(idProduits);
+//     int total = 0;
+//     for (Produit* produit : produitsRecus) {
+//         int qualite = produit->evaluerQualite();
+//         if (qualite > seuilQualite) {
+//             total += 5;
+//         } else if (qualite == seuilQualite) {
+//             total += 4;
+//         } else {
+//             total += 3;
+//         }
+//     }
+//     if (total == 0) {
+//         return 0;
+//     }
+//     return total / nbProduitsCommandes;
+// }
+//
+ostream & operator<<(ostream &out, const Client &client) {
+    out << "Client: " << client.nom << "\n";
+    out << "Seuil de Qualite: " << client.seuilQualite << "\n";
+    out << "Commandes:\n";
+    for (int i = 0; i < 4; ++i) {
+        if (client.commandesA2024[i] != nullptr) {
+            out << *(client.commandesA2024[i]) << "\n";
+        }
+    }
+    return out;
+}

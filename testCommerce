@@ -56,13 +56,13 @@ void commerce()
         cout << commande << endl;
         BonCommande* bonCommande = entreprise.traiterCommande(commande);
         cout << *bonCommande << endl;
-        Reception* reception = entreprise.recupererCommande(bonCommande);
+        Reception* reception =
+        entreprise.recupererCommande(bonCommande);
         cout << *reception << endl;
         client.recevoirCommande(reception);
-        //ligne d'erreur
-        // RapportAssuranceQualite aq;
-        // entreprise.validerSatisfaction(aq, client);
-        // cout << aq.genererRapport(client) << endl;
+        RapportAssuranceQualite aq;
+        entreprise.validerSatisfaction(aq, client);
+        cout << aq.genererRapport(client) << endl;
         client.consommerProduits();
     }
 }

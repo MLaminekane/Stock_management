@@ -5,8 +5,6 @@
 #ifndef COMPTEUR_H
 #define COMPTEUR_H
 
-
-
 class Compteur {
 private:
     static int Constructeur;

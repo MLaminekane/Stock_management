@@ -21,7 +21,6 @@ public:
     ~Composant5() {
         Compteur::ajouterDestructeur();
     }
-
 };
 
 
