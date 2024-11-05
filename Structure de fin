@@ -1,42 +1,59 @@
-#pour le moment, le projet est structuré de la manière suivante:
-
-/project
-|-- /src
-|   |-- /model
-|   |   |-- Compteur.cpp
-|   |   |-- Produit.cpp
-|   |   |-- ProduitA.cpp
-|   |   |-- ProduitB.cpp
-|   |   |-- ProduitC.cpp
-|   |   |-- ProduitD.cpp
-|   |   |-- ProduitE.cpp
-|   |   |-- Inventaire.cpp
-|   |   |-- Commande.cpp
-|   |   |-- Composant.cpp
-|   |   |-- Composant1.cpp
-|   |   |-- Composant2.cpp
-|   |   |-- Composant3.cpp
-|   |   |-- Composant4.cpp
-|   |   |-- Composant5.cpp
-|   |   |-- Fournisseur.cpp
-|-- /include
-|   |-- Compteur.h
-|   |-- Produit.h
-|   |-- ProduitA.h
-|   |-- ProduitB.h
-|   |-- ProduitC.h
-|   |-- ProduitD.h
-|   |-- ProduitE.h
-|   |-- Inventaire.h
-|   |-- Commande.h
-|   |-- Composant.h
-|   |-- Composant1.h
-|   |-- Composant2.h
-|   |-- Composant3.h
-|   |-- Composant4.h
-|   |-- Composant5.h
-|   |-- Fournisseur.h
-|-- main.cpp
-|-- CMakeLists.txt
-|-- testInventaire.cpp
-|-- testCommande.cpp
+/project-root
+├── CMakeLists.txt
+├── app
+│   └── main.cpp
+├── src
+│   ├── Client.cpp
+│   ├── RapportAssuranceQualite.cpp
+│   ├── Commande.cpp
+│   ├── Produit.cpp
+│   ├── Composant.cpp
+│   ├── Composant1.cpp
+│   ├── Composant2.cpp
+│   ├── Composant3.cpp
+│   ├── Composant4.cpp
+│   ├── Composant5.cpp
+│   ├── Entrepot.cpp
+│   ├── Fournisseur.cpp
+│   ├── Inventaire.cpp
+│   ├── ProduitA.cpp
+│   ├── ProduitB.cpp
+│   ├── ProduitC.cpp
+│   ├── ProduitD.cpp
+│   ├── ProduitE.cpp
+│   ├── BonCommande.cpp
+│   ├── Entreprise.cpp
+│   ├── Reception.cpp
+│   └── ...
+├── include
+│   ├── Client.h
+│   ├── RapportAssuranceQualite.h
+│   ├── Commande.h
+│   ├── Produit.h
+│   ├── Composant.h
+│   ├── Composant1.h
+│   ├── Composant2.h
+│   ├── Composant3.h
+│   ├── Composant4.h
+│   ├── Composant5.h
+│   ├── Entrepot.h
+│   ├── Fournisseur.h
+│   ├── Inventaire.h
+│   ├── ProduitA.h
+│   ├── ProduitB.h
+│   ├── ProduitC.h
+│   ├── ProduitD.h
+│   ├── ProduitE.h
+│   ├── BonCommande.h
+│   ├── Entreprise.h
+│   ├── Reception.h
+│   └── ...
+├── lib
+│   └── (optional third-party libraries)
+├── tests
+│   ├── test_main.cpp
+│   └── ...
+├── build
+│   └── (build output directory)
+└── docs
+    └── (documentation)

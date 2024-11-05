@@ -49,149 +49,173 @@ cmake_ninja_workdir = C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/cmake-bu
 
 build cmake_object_order_depends_target_Devoir2: phony || .
 
-build CMakeFiles/Devoir2.dir/main.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/main.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\main.cpp.obj.d
+build CMakeFiles/Devoir2.dir/app/main.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/app/main.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\app\main.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\app
 
-build CMakeFiles/Devoir2.dir/Compteur.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Compteur.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\Compteur.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/BonCommande.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/BonCommande.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\BonCommande.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/Composant.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Composant.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\Composant.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/Client.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/Client.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\Client.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/Composant1.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Composant1.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\Composant1.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/Commande.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/Commande.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\Commande.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/Composant2.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Composant2.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\Composant2.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/Composant.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/Composant.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\Composant.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/Composant3.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Composant3.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\Composant3.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/Composant1.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/Composant1.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\Composant1.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/Composant4.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Composant4.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\Composant4.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/Composant2.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/Composant2.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\Composant2.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/Composant5.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Composant5.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\Composant5.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/Composant3.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/Composant3.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\Composant3.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/Produit.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Produit.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\Produit.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/Composant4.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/Composant4.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\Composant4.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/ProduitA.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/ProduitA.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\ProduitA.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/Composant5.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/Composant5.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\Composant5.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/ProduitB.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/ProduitB.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\ProduitB.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/Compteur.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/Compteur.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\Compteur.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/ProduitC.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/ProduitC.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\ProduitC.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/Entrepot.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/Entrepot.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\Entrepot.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/ProduitD.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/ProduitD.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\ProduitD.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/Entreprise.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/Entreprise.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\Entreprise.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/ProduitE.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/ProduitE.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\ProduitE.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/Fournisseur.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/Fournisseur.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\Fournisseur.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/Commande.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Commande.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\Commande.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/Inventaire.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/Inventaire.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\Inventaire.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/Inventaire.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Inventaire.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\Inventaire.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/Produit.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/Produit.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\Produit.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/Fournisseur.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Fournisseur.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\Fournisseur.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/ProduitA.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/ProduitA.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\ProduitA.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/hasard.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/hasard.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\hasard.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/ProduitB.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/ProduitB.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\ProduitB.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/Entrepot.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Entrepot.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\Entrepot.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/ProduitC.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/ProduitC.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\ProduitC.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/BonCommande.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/BonCommande.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\BonCommande.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/ProduitD.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/ProduitD.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\ProduitD.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/Reception.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Reception.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\Reception.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/ProduitE.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/ProduitE.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\ProduitE.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/Client.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Client.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\Client.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/RapportAssuranceQualite.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/RapportAssuranceQualite.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\RapportAssuranceQualite.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/Entreprise.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/Entreprise.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\Entreprise.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/Reception.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/Reception.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\Reception.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
-build CMakeFiles/Devoir2.dir/RapportAssuranceQualite.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/RapportAssuranceQualite.cpp || cmake_object_order_depends_target_Devoir2
-  DEP_FILE = CMakeFiles\Devoir2.dir\RapportAssuranceQualite.cpp.obj.d
+build CMakeFiles/Devoir2.dir/src/hasard.cpp.obj: CXX_COMPILER__Devoir2_unscanned_Debug C$:/Users/mlami/Desktop/Automne$ 2024/Poo/Devoir2/src/hasard.cpp || cmake_object_order_depends_target_Devoir2
+  DEP_FILE = CMakeFiles\Devoir2.dir\src\hasard.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/mlami/Desktop/Automne 2024/Poo/Devoir2/include"
   OBJECT_DIR = CMakeFiles\Devoir2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Devoir2.dir\src
 
 
 # =============================================================================
@@ -201,7 +225,7 @@ build CMakeFiles/Devoir2.dir/RapportAssuranceQualite.cpp.obj: CXX_COMPILER__Devo
 #############################################
 # Link the executable Devoir2.exe
 
-build Devoir2.exe: CXX_EXECUTABLE_LINKER__Devoir2_Debug CMakeFiles/Devoir2.dir/main.cpp.obj CMakeFiles/Devoir2.dir/Compteur.cpp.obj CMakeFiles/Devoir2.dir/Composant.cpp.obj CMakeFiles/Devoir2.dir/Composant1.cpp.obj CMakeFiles/Devoir2.dir/Composant2.cpp.obj CMakeFiles/Devoir2.dir/Composant3.cpp.obj CMakeFiles/Devoir2.dir/Composant4.cpp.obj CMakeFiles/Devoir2.dir/Composant5.cpp.obj CMakeFiles/Devoir2.dir/Produit.cpp.obj CMakeFiles/Devoir2.dir/ProduitA.cpp.obj CMakeFiles/Devoir2.dir/ProduitB.cpp.obj CMakeFiles/Devoir2.dir/ProduitC.cpp.obj CMakeFiles/Devoir2.dir/ProduitD.cpp.obj CMakeFiles/Devoir2.dir/ProduitE.cpp.obj CMakeFiles/Devoir2.dir/Commande.cpp.obj CMakeFiles/Devoir2.dir/Inventaire.cpp.obj CMakeFiles/Devoir2.dir/Fournisseur.cpp.obj CMakeFiles/Devoir2.dir/hasard.cpp.obj CMakeFiles/Devoir2.dir/Entrepot.cpp.obj CMakeFiles/Devoir2.dir/BonCommande.cpp.obj CMakeFiles/Devoir2.dir/Reception.cpp.obj CMakeFiles/Devoir2.dir/Client.cpp.obj CMakeFiles/Devoir2.dir/Entreprise.cpp.obj CMakeFiles/Devoir2.dir/RapportAssuranceQualite.cpp.obj
+build Devoir2.exe: CXX_EXECUTABLE_LINKER__Devoir2_Debug CMakeFiles/Devoir2.dir/app/main.cpp.obj CMakeFiles/Devoir2.dir/src/BonCommande.cpp.obj CMakeFiles/Devoir2.dir/src/Client.cpp.obj CMakeFiles/Devoir2.dir/src/Commande.cpp.obj CMakeFiles/Devoir2.dir/src/Composant.cpp.obj CMakeFiles/Devoir2.dir/src/Composant1.cpp.obj CMakeFiles/Devoir2.dir/src/Composant2.cpp.obj CMakeFiles/Devoir2.dir/src/Composant3.cpp.obj CMakeFiles/Devoir2.dir/src/Composant4.cpp.obj CMakeFiles/Devoir2.dir/src/Composant5.cpp.obj CMakeFiles/Devoir2.dir/src/Compteur.cpp.obj CMakeFiles/Devoir2.dir/src/Entrepot.cpp.obj CMakeFiles/Devoir2.dir/src/Entreprise.cpp.obj CMakeFiles/Devoir2.dir/src/Fournisseur.cpp.obj CMakeFiles/Devoir2.dir/src/Inventaire.cpp.obj CMakeFiles/Devoir2.dir/src/Produit.cpp.obj CMakeFiles/Devoir2.dir/src/ProduitA.cpp.obj CMakeFiles/Devoir2.dir/src/ProduitB.cpp.obj CMakeFiles/Devoir2.dir/src/ProduitC.cpp.obj CMakeFiles/Devoir2.dir/src/ProduitD.cpp.obj CMakeFiles/Devoir2.dir/src/ProduitE.cpp.obj CMakeFiles/Devoir2.dir/src/RapportAssuranceQualite.cpp.obj CMakeFiles/Devoir2.dir/src/Reception.cpp.obj CMakeFiles/Devoir2.dir/src/hasard.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Devoir2.dir

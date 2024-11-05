@@ -49,7 +49,7 @@ void commerce()
 {
     Entreprise entreprise;
     Client client("ROGER", 90);
-    cout << client << endl;
+    std::cout << client << std::endl;
     for (int x = 0; x < 4; x++)
     {
         Commande commande(client.getCommande(x));
