@@ -1,4 +1,3 @@
-// Client.h (no changes here)
 
 #include "Client.h"
 #include "Compteur.h"
@@ -78,10 +77,24 @@ void Client::consommerProduits() {
         reception = nullptr;
     }
 }
-
 int Client::getSatisfactionProduit(int idProduits) const {
-    std::list<Produit*> produitsRecus = reception->getProduits(idProduits);
+    if (reception == nullptr) {
+        cerr << "Erreur: Reception est null." << std::endl;
+        return 0;
+    }
+
+    list<Produit*> produitsRecus = reception->getProduits(idProduits);
+
+    if (commandesA2024[idProduits] == nullptr) {
+        return 0;
+    }
+
     int nbProduitsCommandes = commandesA2024[idProduits]->getQuantiteProduit(idProduits);
+
+    if (nbProduitsCommandes == 0) {
+        return 0;
+    }
+
     int total = 0;
     for (Produit* produit : produitsRecus) {
         int qualite = produit->evaluerQualite();
@@ -95,11 +108,9 @@ int Client::getSatisfactionProduit(int idProduits) const {
             total += 3;
         }
     }
-    if (total == 0) {
-        return 0;
-    }
     return total / nbProduitsCommandes;
 }
+
 
 std::ostream & operator<<(ostream &os, const Client &client) {
     os << "Nom: " << client.nom << "\n";

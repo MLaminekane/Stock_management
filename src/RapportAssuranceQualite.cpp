@@ -1,7 +1,3 @@
-//
-// Created by mlami on 11/5/2024.
-//
-
 #include <sstream>
 #include "RapportAssuranceQualite.h"
 #include "Compteur.h"
@@ -75,4 +71,3 @@ string RapportAssuranceQualite::genererRapport(const Client& client)
 
     return ss.str();
 }
-

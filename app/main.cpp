@@ -59,10 +59,9 @@ void commerce()
         Reception* reception = entreprise.recupererCommande(bonCommande);
         cout << *reception << endl;
         client.recevoirCommande(reception);
-        //ligne d'erreur
-        // RapportAssuranceQualite aq;
-        // entreprise.validerSatisfaction(aq, client);
-        // cout << aq.genererRapport(client) << endl;
-        client.consommerProduits();
+         RapportAssuranceQualite aq;
+         entreprise.validerSatisfaction(aq, client);
+         cout << aq.genererRapport(client) << endl;
+         client.consommerProduits();
     }
 }

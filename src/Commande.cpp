@@ -43,7 +43,7 @@ Commande::~Commande() {
     Compteur::ajouterDestructeur();
 }
 
-int Commande::getQuantiteProduit(int idProduit) {
+int Commande::getQuantiteProduit(int idProduit) const {
     if (idProduit >= 0 && idProduit < 5) {
         return quantiteProduits[idProduit];
     }
