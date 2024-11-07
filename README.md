@@ -1,5 +1,5 @@
 ## Description
-Devoir2 is a C++ project that simulates a business environment with various components such as clients, products, orders, and suppliers. The project includes functionalities for managing inventory, processing orders, and generating quality assurance reports.
+Stock management is a C++ project that simulates a business environment with various components such as clients, products, orders, and suppliers. The project includes functionalities for managing inventory, processing orders, and generating quality assurance reports.
 
 ## Project Structure
 ## Requirements
